@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1 class="hidden">Home</h1> 
-	<div id="container">
+    <div id="container">
         <div id="topAccent1"></div>
         <div id="topAccent2"></div>
         <div id="topAccent3"></div>
@@ -26,35 +26,42 @@
                  <li onmouseover="colourChange('#74A1E2')"><a href="findUs.html">Find Us</a></li>
             </ul>
         </nav>
+        <div id="ourStoryAccent"></div>
 
-        <div id="indexMain">
+        <div id="ourStoryMain">
         <h2 class="hidden">Main</h2>
-    <video  id="promoVideo" preload autoplay muted>
-        <source src="videos/promoVideo480.mp4" type="video/mp4">
-    </video>
+    <img  id="mcauslanStory" src="images/mcauslanStory.jpg" alt="Story Picture">
 
-    <div id="indexMainRight">
+    <div>
+        <h2 id="ourStoryHeader">OUR STORY</h2>
 
-        <h2 class="accent">WE ARE COLORFULLY BOLD</h2>
+            <div id="ourStoryBody">
+                <h2 class="storyTitle">McAuslan's Story</h2>
+                <p>Peter McAuslan revealed his first official beer during February 1989 
+(McAuslan). The drinks were brewed  at 4850 St-Ambroise Street in 
+Montreal’s St-Henri District. Other notable ‘brewmasters’ include Alan 
+Pugsley and Ellen Bounsall. With great teamwork, the staff lead the 
+company to win 12 medals in international competitions. Pale Ale was
+ the first and an amazing kick start for the brand. Soon after that, 
+McAuslan Brewing became the first brewery to offer its product in 
+bottles.  </p>
 
-        <img  id="rainbowDrip" src="images/rainbowDrip.svg" alt="rainbowDrip">
+<h2 class="storyTitle">Lucy and Yak's Story</h2>
+                <p>This colorful and clean brand was started by a travelling couple who
+ sold clothes out of a van to get by. Lucy and Yak’s iconic product is 
+their dungarees selling in many styles including their limited edition
+ rainbow dungarees that inspired this collaboration. While not only
+ designing this products labeling, they have also created a line of
+ Rainbow Stout merchandise!  </p>
+            </div>
 
-        <div id="indexBodyText">
-        <p>At McAuslan and Yak, we believe that beer is more 
-        than just a drink. We believe that your choice of beer
-        should express who you are.</p>
-        <br>
-        <p>With our new, limited edition RAINBOW STOUT we’ve
-        combined the dark, strong taste of our classic 
-        oatmeal stout with the fruity flavours you’ve come
-        to love from our various fruit ales.</p>
-        <br>
-        <p>BE BOLD. BE EXPRESSIVE. BE YOU.</p>  
+            </div>
         </div>
-        
-    </div>
 
-    </div>
+
+ 
+
+
     <div id="bottomAccent"></div>
     <nav id="footerNav">
         <ul id="footerNavLinks">
@@ -70,19 +77,7 @@
     </nav>
 </div>
     
-<script>
+  
 
-    var mainNav = document.getElementById("mainNav")
-    var bottomAccent = document.getElementById("bottomAccent")
-
-    function colourChange(colour) {
-        console.log(mainNav)
-        mainNav.style.backgroundColor = colour
-        bottomAccent.style.backgroundColor = colour
-
-
-    } 
-
-</script>    
 </body>
 </html>

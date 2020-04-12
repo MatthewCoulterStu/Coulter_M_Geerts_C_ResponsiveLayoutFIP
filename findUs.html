@@ -1,4 +1,5 @@
-<!doctype html>
+
+   <!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,7 +11,7 @@
 </head>
 <body>
     <h1 class="hidden">Home</h1> 
-	<div id="container">
+    <div id="container">
         <div id="topAccent1"></div>
         <div id="topAccent2"></div>
         <div id="topAccent3"></div>
@@ -26,35 +27,42 @@
                  <li onmouseover="colourChange('#74A1E2')"><a href="findUs.html">Find Us</a></li>
             </ul>
         </nav>
+        <div id="findUsAccent"></div>
 
-        <div id="indexMain">
+        <div id="ourStoryMain">
         <h2 class="hidden">Main</h2>
-    <video  id="promoVideo" preload autoplay muted>
-        <source src="videos/promoVideo480.mp4" type="video/mp4">
-    </video>
+    <div id="findUsLeft">
+    <img class="social" src="images/facebook.png" alt="Story Picture">
+    <img class="social" src="images/twitter.png" alt="Story Picture">
+    <img class="social" src="images/instagram.png" alt="Story Picture">
 
-    <div id="indexMainRight">
+       <iframe id="googleMap" src="https://maps.google.com/maps?q=5080%20St%20Ambroise%20St%2C%20Montreal%2C%20Quebec%20H4C%202G1&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
 
-        <h2 class="accent">WE ARE COLORFULLY BOLD</h2>
+    <div>
+        <h2 id="findUsHeader">FIND US</h2>
 
-        <img  id="rainbowDrip" src="images/rainbowDrip.svg" alt="rainbowDrip">
+            <div id="ourStoryBody">
+                <h2 class="contactInfoTitle">Contact Information</h2>
+                <p>Address: 5080 St-Ambroise Montréal, Québec H4C 2G1</p>
+               <p>Phone Number: (123) 456 7890</p>
+               <p>Email:info@mcauslan.com</p>
+               <p>Fax:(098) 765 4321</p>
+ 
 
-        <div id="indexBodyText">
-        <p>At McAuslan and Yak, we believe that beer is more 
-        than just a drink. We believe that your choice of beer
-        should express who you are.</p>
-        <br>
-        <p>With our new, limited edition RAINBOW STOUT we’ve
-        combined the dark, strong taste of our classic 
-        oatmeal stout with the fruity flavours you’ve come
-        to love from our various fruit ales.</p>
-        <br>
-        <p>BE BOLD. BE EXPRESSIVE. BE YOU.</p>  
+
+                  
+
+
+            </div>
+
+            </div>
         </div>
-        
-    </div>
 
-    </div>
+
+ 
+
+
     <div id="bottomAccent"></div>
     <nav id="footerNav">
         <ul id="footerNavLinks">
@@ -70,19 +78,7 @@
     </nav>
 </div>
     
-<script>
+  
 
-    var mainNav = document.getElementById("mainNav")
-    var bottomAccent = document.getElementById("bottomAccent")
-
-    function colourChange(colour) {
-        console.log(mainNav)
-        mainNav.style.backgroundColor = colour
-        bottomAccent.style.backgroundColor = colour
-
-
-    } 
-
-</script>    
 </body>
 </html>
