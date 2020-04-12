@@ -2,5 +2,6 @@
 
 Brand collaboration between McAuslan and Lucy & Yak.<br>
 
-# Mc-Auslan & Yak
+## Mc-Auslan & Yak
+Coulter M, Geerts C - 2020
 
